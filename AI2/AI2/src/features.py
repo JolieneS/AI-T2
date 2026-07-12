@@ -52,4 +52,4 @@ if __name__ == "__main__":
     print("\n── Top-2 sanity check ──")
     for i, r in enumerate(results, 1):
         print(f"  [{i}] {r.page_content[:100]}…")
-    print(f"\n✅ Stage 2 done — index at {CHROMA_DIR}")
+    print(f"\nS2 — index at {CHROMA_DIR}")
