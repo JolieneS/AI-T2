@@ -65,4 +65,4 @@ if __name__ == "__main__":
     chunks   = chunk_documents(raw_docs)
     with open(OUTPUT_PATH, "w") as f:
         json.dump([{"content": c.page_content, "metadata": c.metadata} for c in chunks], f, indent=2)
-    print(f"\n✅ Stage 1 done — {len(chunks)} chunks saved to {OUTPUT_PATH}")
+    print(f"\n S1  — {len(chunks)} chunks saved to {OUTPUT_PATH}")
