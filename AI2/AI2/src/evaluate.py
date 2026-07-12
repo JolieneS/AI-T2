@@ -100,4 +100,4 @@ if __name__ == "__main__":
     with open(REPORT_PATH, "w") as f:
         json.dump({"per_question": df.to_dict(orient="records"),
                    "summary": summary.to_dict(orient="records")}, f, indent=2)
-    print(f"\n✅ Report saved → {REPORT_PATH}")
+    print(f"\n Report saved → {REPORT_PATH}")
